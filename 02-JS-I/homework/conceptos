@@ -1,0 +1,4 @@
+variable es un espacio de memoria donde se puede almacenar algo.
+Strings son cadenas de texto cualesquiera
+If sirve para realizar una accion diferente dependiendo si una expresión es falsa o verdadera.
+true es verdadero, false es falso.
