@@ -1,0 +1,62 @@
+body{ font-size: 18px;  background-color: yellow; }
+
+
+
+.container{
+    width:  1160px;
+    margin:  0 auto; /*Arriba derecha abajo izquierda. orden de la margen*/
+    padding-right: 15px;
+    padding-left: 15px;
+    position:  relative;
+
+}
+
+
+
+.row {
+    /*Para aprovechar las columnas unas al lado de las otras se coloca flex*/
+     display:  flex;
+     flex-wrap:  nowrap; /*Si dejamos nowrap todas las columnas van en una sola fila, si es wrap pasa abajo si es grande*/
+     justify-content:  space-around;
+
+}
+
+
+#skills {
+   border-color: red;
+   
+   border-style:  dotted;
+
+   margin-top: -2px;
+   margin-bottom: -5px;
+
+}
+
+#hobbies {
+   border-color: red;
+   
+   border-style:  dashed;
+
+}
+
+
+
+li{ text-align:center; }
+img{ display:inline;}
+h1,h3{   /*display:flex;
+            justify-content:center; */
+            display: block;
+            text-align: center;
+            color: indigo;}
+
+h4{ font-size: 20px;
+     font-family: cursive;
+     text-align:center; }
+
+
+
+
+.columna-50 {  width:50%; }
+.columna-33{  width: 33,33%; }
+.columna { padding-left:15px;
+           padding-right:15px; }
